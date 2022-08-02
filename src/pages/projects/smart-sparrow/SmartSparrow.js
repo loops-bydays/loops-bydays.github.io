@@ -70,9 +70,9 @@ import styles from './SmartSparrow.module.css';
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() => import('./Earth').then(mod => mod.EarthSection));
 
-const title = 'Designing the future of education';
+const title = 'Redesigning of insurance portal';
 const description =
-  'I worked as the design lead on a major iteration of Smart Sparrow’s product. We took the platform in a bold new direction, focusing on becoming the best tool for learning designers.';
+  'I worked as the design lead on a major system improvement of an insurance company product. I took the old interface of the  platform, and research on the difficulties thats the employees face in interacting with the portal, focusing on becoming the best tool for learning designers.';
 const roles = [
   'Art Direction',
   'UX and UI Design',

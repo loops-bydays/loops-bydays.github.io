@@ -68,8 +68,8 @@ export const Home = () => {
   return (
     <div className={styles.home}>
       <Meta
-        title="Designer + Developer"
-        description="Design portfolio of Hamish Williams — a product designer working on web & mobile
+        title="UI/UX Designer + Developer"
+        description="Design portfolio of Nana Yaw Osei-Ameyaws — a product designer working on web & mobile
           apps with a focus on motion, experience design, and accessibility."
       />
       <Intro
@@ -83,8 +83,8 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="Designing the future of education"
-        description="Designing a platform to help educators build better online courseware"
+        title="Redesigning of insurance portal"
+        description="Redesigning a platform to help the organization employee to manage the in and out flow of their services."
         buttonText="View project"
         buttonLink="/projects/smart-sparrow"
         model={{
@@ -104,8 +104,8 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="Video game progress tracking"
-        description="Design and development for a video game tracking app built in React Native"
+        title="Design of an NFT market app"
+        description="Design and user case of NFTs market app to allow user the opportunity to have access to the digital art world."
         buttonText="View website"
         buttonLink="https://gamestack.hamishw.com"
         model={{
@@ -128,8 +128,8 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Biomedical image collaboration"
-        description="Increasing the amount of collaboration in Slice, an app for biomedical imaging"
+        title="Design of Employee Management Portal"
+        description="Design of a web-portal system that allow employees of an organization to track their task and projects. "
         buttonText="View project"
         buttonLink="/projects/slice"
         model={{
